@@ -1,0 +1,20 @@
+# dependencies & build
+node_modules/
+dist/
+
+# WhatsApp session (WAJIB, isinya login akun WA)
+sessions/
+.wwebjs_auth/
+.wwebjs_cache/
+auth_info*/
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# logs & misc
+*.log
+npm-debug.log*
+.DS_Store
+.vscode/
